@@ -17,6 +17,7 @@ const Search=()=>{
           <p>{isError.show && isError.msg}</p>
      </div>
  </section>
+ 
     
     </div>
     )

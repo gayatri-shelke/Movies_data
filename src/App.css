@@ -110,8 +110,14 @@ input{
     display: grid;
     gap: 2rem;
     grid-template-columns: 0.6fr 1fr;
-    box-shadow:rgba(99,99,99,0.2)0px 2px 8px 0px ;
+    box-shadow:rgba(233, 27, 27, 0.2)0px 2px 8px 0px ;
     border-radius: 2rem;
+    
+
+}
+a:hover{
+                 
+    background-color: red;
 
 }
 figure{
@@ -155,12 +161,7 @@ a{
     border-radius: 0.5rem;
     transition: all 0.3s linear;
 }
-a:hover{
-    /* background-color: var(--text-clr);
-    color: var(--bg-clr); */
-    background-color: red;
 
-}
 a:hover h2{
     color: var(--bg-clr);
     transform: translateY(-1.5rem);

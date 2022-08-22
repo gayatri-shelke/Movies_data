@@ -6,7 +6,7 @@ const AppProvider=({children})=>{
     const [isLoading,setIsLoading]=useState(true)
     const [movie,setMovie]=useState([])
     const [isError,setIsError]=useState({show:'false',msg:''})
-    const [query,setQuery]=useState('love')
+    const [query,setQuery]=useState()
     const getMovies=async(url)=>{
         try{
             const res=await fetch(url);
@@ -47,4 +47,3 @@ export {AppContext,AppProvider,useGlobalContext}
 
 
 
-// http://www.omdbapi.com/?apikey=727bbdc1&s=titanic
